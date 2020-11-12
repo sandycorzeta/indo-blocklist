@@ -5,7 +5,6 @@ no-cosmetic-filtering: localhost true
 no-cosmetic-filtering: tt-rss.snopyta.org true
 no-csp-reports: * true
 no-large-media: behind-the-scene false
-no-remote-fonts: * true
 no-remote-fonts: write.as false
 no-remote-fonts: www.cloud.alfacloud.biz false
 no-remote-fonts: audius.co false
@@ -37,8 +36,8 @@ no-remote-fonts: sociolla.com false
 no-remote-fonts: suara.com false
 no-remote-fonts: www.tiket.com false
 no-remote-fonts: tokopedia.com false
-no-remote-fonts: farmita.wordpress.com false
 no-remote-fonts: writeas.com false
+no-remote-fonts: sandycorzeta.writeas.com true
 no-remote-fonts: nc.nl.tab.digital false
 no-remote-fonts: crypt.ee false
 no-remote-fonts: dream.co.id false
@@ -48,6 +47,7 @@ no-remote-fonts: medcom.id false
 no-remote-fonts: tirto.id false
 no-remote-fonts: trakteer.id false
 no-remote-fonts: vibetronic.id false
+no-remote-fonts: misskey.io false
 no-remote-fonts: privacytools.io false
 no-remote-fonts: app.simplelogin.io false
 no-remote-fonts: localhost false
@@ -56,6 +56,18 @@ no-remote-fonts: invidious.snopyta.org false
 no-remote-fonts: mastodon.social false
 no-remote-fonts: www12.9anime.to false
 no-scripting: * true
+no-scripting: www.blibli.com false
+no-scripting: www.bukalapak.com false
+no-scripting: accounts.google.com false
+no-scripting: drive.google.com false
+no-scripting: login.live.com false
+no-scripting: moeclip.com false
+no-scripting: soundcloud.com false
+no-scripting: www.tokopedia.com false
+no-scripting: bouvardia.icu false
+no-scripting: shopee.co.id false
+no-scripting: trakteer.id false
+no-scripting: misskey.io false
 no-strict-blocking: vibetronic.id true
 * * 3p block
 * * 3p-frame block
@@ -170,6 +182,7 @@ discordapp.com discord.gg * noop
 www.dropbox.com www.dropbox-dns.com * noop
 www.dropbox.com cfl.dropboxstatic.com * noop
 www.dropbox.com cfl.dropboxstatic.com.cdn.cloudflare.net * noop
+m.facebook.com fbcdn.net * noop
 www.facebook.com www.facebook.com * noop
 www.facebook.com fbcdn.net * noop
 fandom.com speed.nocookie.net * noop
@@ -190,7 +203,9 @@ accounts.google.com ssl.gstatic.com * noop
 docs.google.com googleusercontent.com * noop
 docs.google.com gstatic.com * noop
 drive.google.com content.googleapis.com * noop
+drive.google.com googleusercontent.com * noop
 drive.google.com ssl.gstatic.com * noop
+drive.google.com www.gstatic.com * noop
 mail.google.com lh3.googleusercontent.com * noop
 mail.google.com ssl.gstatic.com * noop
 mail.google.com www.gstatic.com * noop
@@ -309,8 +324,11 @@ pluginboutique.com www.google.com * noop
 pluginboutique.com www.gstatic.com * noop
 pluginboutique.com www.recaptcha.net * noop
 producerhive.com producerhive.b-cdn.net * noop
-www.reddit.com www.redditmedia.com * noop
-www.reddit.com www.redditstatic.com * noop
+old.reddit.com redditmedia.com * noop
+old.reddit.com redditstatic.com * noop
+old.reddit.com preview.redd.it * noop
+www.reddit.com redditmedia.com * noop
+www.reddit.com redditstatic.com * noop
 www.reddit.com reddit.map.fastly.net * noop
 www.routenote.com www.google.com * noop
 www.routenote.com storage.googleapis.com * noop
@@ -395,6 +413,8 @@ www.webtoons.com webtoons-static.pstatic.net * noop
 web.whatsapp.com giphy.com * noop
 web.whatsapp.com giphy.map.fastly.net * noop
 web.whatsapp.com whatsapp.net * noop
+writeas.com cdn.writeas.net * noop
+sandycorzeta.writeas.com cdn.writeas.net * noop
 studio.youtube.com ggpht.com * noop
 studio.youtube.com google.com * noop
 studio.youtube.com googleusercontent.com * noop
@@ -451,12 +471,21 @@ jd.id jd.id * noop
 medcom.id api.dailymotion.com * noop
 medcom.id medcom.id * noop
 tirto.id tirto.id * noop
+trakteer.id www.google.com * noop
+trakteer.id www.gstatic.com * noop
 trakteer.id trakteer.id * noop
 vibetronic.id www.google.com * noop
 vibetronic.id fonts.gstatic.com * noop
 vibetronic.id www.gstatic.com * noop
 vibetronic.id vibetronic.id * noop
+misskey.io digitaloceanspaces.com * noop
+misskey.io storage.googleapis.com * noop
+misskey.io twemoji.maxcdn.com * noop
+misskey.io vultrobjects.com * noop
+misskey.io resource.yuzulia.com * noop
 misskey.io misskey.io * noop
+misskey.io 藍.moe * noop
+misskey.io arkjp.net * noop
 social.privacytools.io privacytoolsmastodon.b-cdn.net * noop
 app.simplelogin.io simplelogin.co * noop
 hatenablog.jp raw.githubusercontent.com * noop
@@ -500,6 +529,8 @@ www.pixiv.net s.pximg.net * noop
 www.pixiv.net d.pixiv.org * noop
 www.pixiv.net api.booth.pm * noop
 syncthing.net stackpath.bootstrapcdn.com * noop
+vocalodon.net amazonaws.com * noop
+vocalodon.net vocalodon.net * noop
 mega.nz mega.co.nz * noop
 video.mstddntfdn.online cloud01.taruki.com * noop
 video.mstddntfdn.online video.mstddntfdn.online * noop
@@ -560,17 +591,3 @@ twitch.tv usher.ttvnw.net * noop
 twitch.tv web-cdn.ttvnw.net * noop
 twitch.tv twitchcdn.net * noop
 twitch.tv twitchsvc.net * noop
-no-remote-fonts: misskey.io false
-no-scripting: misskey.io false
-misskey.io digitaloceanspaces.com * noop
-misskey.io storage.googleapis.com * noop
-misskey.io twemoji.maxcdn.com * noop
-misskey.io vultrobjects.com * noop
-misskey.io resource.yuzulia.com * noop
-misskey.io misskey.io * noop
-misskey.io 藍.moe * noop
-misskey.io arkjp.net * noop
-no-remote-fonts: vocalodon.net false
-no-scripting: vocalodon.net false
-vocalodon.net amazonaws.com * noop
-vocalodon.net vocalodon.net * noop
