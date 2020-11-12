@@ -560,3 +560,17 @@ twitch.tv usher.ttvnw.net * noop
 twitch.tv web-cdn.ttvnw.net * noop
 twitch.tv twitchcdn.net * noop
 twitch.tv twitchsvc.net * noop
+no-remote-fonts: misskey.io false
+no-scripting: misskey.io false
+misskey.io digitaloceanspaces.com * noop
+misskey.io storage.googleapis.com * noop
+misskey.io twemoji.maxcdn.com * noop
+misskey.io vultrobjects.com * noop
+misskey.io resource.yuzulia.com * noop
+misskey.io misskey.io * noop
+misskey.io 藍.moe * noop
+misskey.io arkjp.net * noop
+no-remote-fonts: vocalodon.net false
+no-scripting: vocalodon.net false
+vocalodon.net amazonaws.com * noop
+vocalodon.net vocalodon.net * noop
