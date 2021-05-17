@@ -108,3 +108,18 @@ mbasic.facebook.com##a.bb.ba:nth-of-type(10)
 ! 2021-03-26 https://www.facebook.com
 www.facebook.com##.lpgh02oy > div > div:nth-of-type(3) > div
 www.facebook.com##footer
+
+! 2021-04-07 https://www.facebook.com
+www.facebook.com##div.rwwkvi1h.buofh1pr.h676nmdw:nth-of-type(1)
+
+! 2021-04-09 https://discord.com
+discord.com##.invite-OjTXrW.channelNotice-1-XFjC
+discord.com##.quickswitcher-35bYg4.channelNotice-1-XFjC
+
+! 2021-04-10 https://savieraandriany.blogspot.com
+savieraandriany.blogspot.com###NoScript
+
+! 2021-04-21 https://www.facebook.com
+www.facebook.com##li.hw7htvoc.h676nmdw.dawyy4b1.jrc8bbd0.o5zgeu5y.to382e16.buofh1pr
+www.facebook.com##div.sjgh65i0 > div > div > div > div > .k4urcfbm.l9j0dhe7.j83agx80
+
