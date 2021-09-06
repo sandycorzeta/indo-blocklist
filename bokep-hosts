@@ -109,11 +109,11 @@ s8.aparat.cam
 s9.aparat.cam 
 www51.o0-1.com
 slave6.series24khmer.com
-www.hentaiser.com
+*.hentaiser.com
 api.hentaiser.com
 app.hentaiser.com
 media.hentaiser.com
-www.nhentai.net
+*.nhentai.net
 blog.nhentai.net
 i.nhentai.net
 i2.nhentai.net
@@ -128,7 +128,7 @@ t7.nhentai.net
 webseed.nhentai.net
 sukebei.nyaa.si
 sukebi.nyaa.si
-www.pornhub.com 	
+*.pornhub.com 	
 ams-v48.pornhub.com 	
 api.pornhub.com 	
 api-stage.pornhub.com 	
@@ -887,6 +887,7 @@ www.rudals.net
 www.rudals1.net
 www.rudals2.net
 www.rudals3.net
+*.avgle.com
 www.avgle.com 	
 api.avgle.com 	
 origin-thumbnails.avgle.com 	
@@ -1284,7 +1285,8 @@ ma.bromo.com
 signup.bromo.com 	
 site-ma.bromo.com 	
 origin3.static.bromo.com
-xvideos.com 	
+xvideos.com
+*.xvideos.com 	
 www.xvideos.com 	
 001.xvideos.com 	
 010.xvideos.com 	
