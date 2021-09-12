@@ -5,10 +5,13 @@ no-cosmetic-filtering: sandycorzeta.gitlab.io true
 no-cosmetic-filtering: tt-rss.snopyta.org true
 no-csp-reports: * true
 no-large-media: behind-the-scene false
+no-remote-fonts: 10.6.0.1 false
+no-remote-fonts: 192.168.1.95 false
 no-remote-fonts: www12.9anime.to false
 no-remote-fonts: www.cloud.alfacloud.biz false
 no-remote-fonts: audius.co false
 no-remote-fonts: awsubs.co false
+no-remote-fonts: beritasatu.com false
 no-remote-fonts: crypt.ee false
 no-remote-fonts: www.detik.com true
 no-remote-fonts: dream.co.id false
@@ -30,8 +33,9 @@ no-remote-fonts: medcom.id false
 no-remote-fonts: mega.nz false
 no-remote-fonts: merdeka.com false
 no-remote-fonts: metrotvnews.com false
-no-remote-fonts: misskey.io false
+no-remote-fonts: mojok.co false
 no-remote-fonts: okezone.com false
+no-remote-fonts: open.audio false
 no-remote-fonts: otakumode.com false
 no-remote-fonts: www.pegipegi.com false
 no-remote-fonts: www.plugin-alliance.com false
@@ -45,6 +49,7 @@ no-remote-fonts: sociolla.com false
 no-remote-fonts: suara.com false
 no-remote-fonts: sushiroll.co.id false
 no-remote-fonts: nc.nl.tab.digital false
+no-remote-fonts: tempo.co false
 no-remote-fonts: nasional.tempo.co true
 no-remote-fonts: www.tempo.co true
 no-remote-fonts: www.tiket.com false
@@ -52,71 +57,132 @@ no-remote-fonts: tirto.id false
 no-remote-fonts: tokopedia.com false
 no-remote-fonts: trakteer.id false
 no-remote-fonts: vibetronic.id false
+no-remote-fonts: vocalodon.net false
+no-remote-fonts: farmita.wordpress.com false
 no-remote-fonts: write.as false
 no-remote-fonts: writeas.com false
+no-remote-fonts: sandycorzeta.writeas.com true
 no-scripting: * true
+no-scripting: 10.6.0.1 false
+no-scripting: 127.0.0.1 false
 no-scripting: www.academia.edu false
+no-scripting: account.alibabacloud.com false
+no-scripting: id.alibabacloud.com false
+no-scripting: account.aliyun.com false
+no-scripting: home-intl.console.aliyun.com false
+no-scripting: kvstore.console.aliyun.com false
+no-scripting: rdsnext.console.aliyun.com false
 no-scripting: aws.amazon.com false
+no-scripting: www.animenewsnetwork.com false
 no-scripting: app.anonaddy.com false
 no-scripting: arstechnica.com false
 no-scripting: www.arturia.com false
+no-scripting: aspiration.id false
+no-scripting: rog.asus.com false
 no-scripting: audius.co false
 no-scripting: audius.org false
 no-scripting: avistaz.to false
 no-scripting: balanceapp.com false
 no-scripting: bandcamp.com false
 no-scripting: mwk094.bandcamp.com false
+no-scripting: bemaniso.ws false
+no-scripting: www.bhinneka.com false
 no-scripting: space.bilibili.com false
 no-scripting: www.bilibili.com false
+no-scripting: blahdns.com false
 no-scripting: www.blibli.com false
+no-scripting: bouvardia.icu false
 no-scripting: www.bukalapak.com false
+no-scripting: cpstest.org false
 no-scripting: www.cpubenchmark.net false
 no-scripting: crowdin.com false
 no-scripting: www.deepl.com false
+no-scripting: www.deviantart.com false
 no-scripting: discord.com false
 no-scripting: duckduckgo.com false
+no-scripting: html.duckduckgo.com false
+no-scripting: passport.duitku.com false
 no-scripting: m.facebook.com false
 no-scripting: www.facebook.com false
 no-scripting: fandom.com false
 no-scripting: www.fanfiction.net false
+no-scripting: invidious.fdn.fr false
+no-scripting: fosshost.org false
+no-scripting: www.gimp.org false
 no-scripting: github.com false
 no-scripting: gitlab.com false
+no-scripting: glints.com false
 no-scripting: accounts.google.com false
+no-scripting: chrome.google.com false
 no-scripting: docs.google.com false
 no-scripting: drive.google.com false
 no-scripting: play.google.com false
+no-scripting: scholar.google.com false
 no-scripting: translate.google.com false
 no-scripting: www.google.com false
+no-scripting: www.howtogeek.com false
+no-scripting: community.humanetech.com false
 no-scripting: www.icloud.com false
+no-scripting: idcloudhost.com false
+no-scripting: console.idcloudhost.com false
 no-scripting: www.instagram.com false
+no-scripting: client.iseedfast.com false
+no-scripting: www.jd.id false
+no-scripting: www.jobstreet.co.id false
+no-scripting: jpopsuki.eu false
+no-scripting: www.lazada.co.id false
 no-scripting: lemmy.ml false
+no-scripting: account.live.com false
 no-scripting: login.live.com false
+no-scripting: outlook.live.com false
 no-scripting: mail.tm false
 no-scripting: mangadex.org false
+no-scripting: mega.io false
 no-scripting: www.messenger.com false
+no-scripting: account.microsoft.com false
+no-scripting: support.microsoft.com false
 no-scripting: misskey.de false
 no-scripting: misskey.io false
 no-scripting: moeclip.com false
+no-scripting: mousetester.com false
 no-scripting: www.musicradar.com false
+no-scripting: alexa.myseedbox.site false
+no-scripting: www.name.com false
+no-scripting: neuraldsp.com false
 no-scripting: www.nicovideo.jp false
+no-scripting: www.omgubuntu.co.uk false
 no-scripting: open.audio false
 no-scripting: www.openstreetmap.org false
+no-scripting: www.orami.co.id false
+no-scripting: outlook.live false
 no-scripting: papersize.co false
 no-scripting: www.patreon.com false
 no-scripting: www.pcgamer.com false
 no-scripting: accounts.pixiv.net false
 no-scripting: www.pixiv.net false
 no-scripting: www.pluginboutique.com false
+no-scripting: www.positivegrid.com false
 no-scripting: www.quora.com false
+no-scripting: rajatiket.com false
+no-scripting: www.roblox.com false
+no-scripting: routenote.com false
+no-scripting: rutracker.org false
 no-scripting: sci-hub.st false
 no-scripting: ad.scorz.works false
 no-scripting: scrapbox.io false
 no-scripting: shopee.co.id false
+no-scripting: www.sociolla.com false
 no-scripting: soundcloud.com false
+no-scripting: spacebarcounter.org false
+no-scripting: www.statista.com false
 no-scripting: store.steampowered.com false
 no-scripting: sugoimusic.me false
+no-scripting: www.theverge.com false
+no-scripting: www.tiket.com false
 no-scripting: www.tokopedia.com false
+no-scripting: www.tomshardware.com false
 no-scripting: trakteer.id false
+no-scripting: www.traveloka.com false
 no-scripting: trello.com false
 no-scripting: tresorit.com false
 no-scripting: send.tresorit.com false
@@ -124,13 +190,23 @@ no-scripting: mail.tutanota.com false
 no-scripting: tvtropes.org false
 no-scripting: www.twitch.tv false
 no-scripting: twitter.com false
+no-scripting: cybercampus.unair.ac.id false
+no-scripting: www.upwork.com false
+no-scripting: vibetronic.id false
+no-scripting: www.vice.com false
+no-scripting: vocalodon.net false
+no-scripting: www.waves.com false
 no-scripting: write.as false
+no-scripting: account.xbox.com false
+no-scripting: social.xbox.com false
+no-scripting: sisu.xboxlive.com false
 no-scripting: www.xp-pen.com false
+no-scripting: music.youtube.com false
 no-scripting: studio.youtube.com false
 no-scripting: www.youtube.com false
 no-scripting: www.yuumeiart.com false
-no-strict-blocking: jerryching.changeip.org true
-no-strict-blocking: vibetronic.id true
+no-scripting: www.zalora.co.id false
+no-scripting: zamplersounds.sellfy.store false
 * * 3p block
 * * 3p-frame block
 * * 3p-script block
@@ -140,8 +216,12 @@ no-strict-blocking: vibetronic.id true
 * akamaiedge.net * noop
 * akamaihd.net * noop
 * akamaized.net * noop
+* alphacdn.net * noop
+* amazonaws.com * noop
 * antiadblocksystems.com * block
+* js.appboycdn.com * noop
 * ajax.aspnetcdn.com * noop
+* azureedge.net * noop
 * b-cdn.net * noop
 * libs.baidu.com * noop
 * lib.baomitu.com * noop
@@ -151,14 +231,18 @@ no-strict-blocking: vibetronic.id true
 * maxcdn.bootstrapcdn.com * noop
 * netdna.bootstrapcdn.com * noop
 * stackpath.bootstrapcdn.com * noop
+* cachefly.net * noop
+* cloudapp.net * noop
 * ajax.cloudflare.com * noop
 * cdnjs.cloudflare.com * noop
 * cdn.cloudflare.net * noop
 * cloudfront.net * noop
 * cdn.css.net * noop
+* cdn.datatables.net * noop
 * improving.duckduckgo.com * block
 * t.duckduckgo.com * block
 * edgecastcdn.net * noop
+* cdn.embed.ly * noop
 * pixel.facebook.com * block
 * global.fastly.net * noop
 * ssl.fastly.net * noop
@@ -167,12 +251,16 @@ no-strict-blocking: vibetronic.id true
 * a.fsdn.com * noop
 * sdn.geekzu.org * noop
 * gitcdn.github.io * noop
+* www.google.com * noop
 * fonts.gstatic.com * noop
+* www.gstatic.com * noop
+* ssl.gstatic.om * noop
 * mat1.gtimg.com * noop
 * hcaptcha.com * noop
 * hwcdn.net * noop
 * i.imgur.com * noop
 * i.stack.imgur.com * noop
+* incapdns.net * noop
 * graph.instagram.com * block
 * code.jquery.com * noop
 * cdn.jsdelivr.net * noop
@@ -185,11 +273,19 @@ no-strict-blocking: vibetronic.id true
 * map.fastly.net * noop
 * cf.mastohost.com * noop
 * cdn.materialdesignicons.com * noop
+* cdn.mathjax.org * noop
+* twemoji.maxcdn.com * noop
 * meowstream.com * noop
 * ajax.microsoft.com * noop
+* msecnd.net * noop
+* netdna-cdn.com * noop
 * pagecdn.io * noop
+* static.parastorage.com * noop
 * cdn.plyr.io * noop
+* pressablecdn.com * noop
 * cdn.ravenjs.com * noop
+* www.recaptcha.net * noop
+* mathjax.rstudio.com * noop
 * images.squarespace-cdn.com * noop
 * assets.squarespace.com * noop
 * static1.squarespace.com * noop
@@ -199,6 +295,8 @@ no-strict-blocking: vibetronic.id true
 * unpkg.com * noop
 * upcdn.b0.upaiyun.com * noop
 * ajax.proxy.ustclug.org * noop
+* v0cdn.net * noop
+* azurewebsites.windows.net * noop
 * wp.com * noop
 * stats.wp.com * block
 * files.writeas.org * noop
@@ -208,30 +306,33 @@ no-strict-blocking: vibetronic.id true
 * static.zdassets.com * noop
 * theme.zdassets.com * noop
 * vjs.zencdn.net * noop
-10.6.0.1 * * noop
-10.6.0.1 e-cdns-images.dzcdn.net * noop
-10.6.0.1 googlevideo.com * noop
-192.168.1.95 dzcdn.net * noop
 9anime.to 9anime.to * noop
-9anime.to www.google.com * noop
-9anime.to www.gstatic.com * noop
 9anime.to mcloud.to * noop
 9anime.to mp4upload.com * noop
 9anime.to streamtape.com * noop
 9anime.to vidstream.pro * noop
 www.academia.edu academia-assets.com * noop
 www.academia.edu academia-photos.com * noop
-www.academia.edu google.com * noop
-www.academia.edu gstatic.com * noop
-www.academia.edu netdna-cdn.com * noop
-www.academia.edu recaptcha.net * noop
+account.alibabacloud.com aliapp.org * noop
+account.alibabacloud.com alibaba.com * noop
+account.alibabacloud.com alibabadns.com * noop
+account.alibabacloud.com alicdn.com * noop
+account.alibabacloud.com tbcache.com * noop
+id.alibabacloud.com alicdn.com * noop
+account.aliyun.com alibabadns.com * noop
+account.aliyun.com alicdn.com * noop
+account.aliyun.com aliyuncs.com * noop
+account.aliyun.com tbcache.com * noop
+home-intl.console.aliyun.com alibabacloud.com * noop
+kvstore.console.aliyun.com alibaba.com * noop
+kvstore.console.aliyun.com alicdn.com * noop
+kvstore.console.aliyun.com aliyuncs.com * noop
+rdsnext.console.aliyun.com alicdn.com * noop
 aws.amazon.com awsstatic.com * noop
+ap-southeast-1.console.aws.amazon.com a299197c08ba4f000.awsglobalaccelerator.com * noop
 ap-southeast-1.console.aws.amazon.com a2z.com * noop
-ap-southeast-1.console.aws.amazon.com amazonaws.com * noop
 ap-southeast-1.console.aws.amazon.com awsilvcons.com * noop
-www.amazon.com s3-us-west-2-w.amazonaws.com * noop
 www.amazon.com m.media-amazon.com * noop
-www.amazon.com opfcaptcha-prod.s3.amazonaws.com * noop
 www.amazon.com static.siege-amazon.com * noop
 www.amazon.com images-na.ssl-images-amazon.com * noop
 anichart.net anichart.net * noop
@@ -239,21 +340,18 @@ anichart.net graphql.anilist.co * noop
 anichart.net s4.anilist.co * noop
 www.animenewsnetwork.com animenewsnetwork.com * noop
 www.apple.com cdn-apple.com * noop
-arstechnica.com arstechnica.net * noop
-arstechnica.com cachefly.net * noop
+arstechnica.com cdn.arstechnica.net * noop
 www.arturia.com arturia.net * noop
-askubuntu.com i.stack.imgur.com.cdn.cloudflare.net * noop
 askubuntu.com cdn.sstatic.net * noop
 askubuntu.com qa.sockets.stackexchange.com * noop
 askubuntu.com clc.stackoverflow.com * noop
-audius.co amazonaws.com * noop
+rog.asus.com psicdn.net * noop
 dashboard.audius.org eth-mainnet.alchemyapi.io * noop
 dashboard.audius.org dashboard.audius.org * noop
 awsubs.co acefile.co * noop
 awsubs.co awsubs.co * noop
 awsubs.co bp.blogspot.com * noop
 awsubs.co photos-ugc.l.googleusercontent.com * noop
-www.backblaze.com www.backblaze.com.cdn.cloudflare.net * noop
 bakabt.me mei.animebytes.tv * noop
 bakabt.me bakashots.me * noop
 bandcamp.com bandcamp.com * noop
@@ -279,41 +377,32 @@ www.bilibili.com hdslb.com * noop
 www.bilibili.com kunlunar.com * noop
 www.bilibili.com kunlunhuf.com * noop
 www.bilibili.com kunlunno.com * noop
+blahdns.com camo.githubusercontent.com * noop
+blahdns.com liberapay.com * noop
+blahdns.com www.w3schools.com * noop
 blibli.com blibli.com * noop
-blibli.com www.static-src.com.cdn.cloudflare.net * noop
 blibli.com www.static-src.com * noop
 box.com boxcdn.net * noop
-box.com cloudflare.net * noop
-bukalapak.com api.bukalapak.com.cdn.cloudflare.net * noop
-bukalapak.com fragment.bukalapak.com.cdn.cloudflare.net * noop
-bukalapak.com www.bukalapak.com.cdn.cloudflare.net * noop
-bukalapak.com fonts.gstatic.com * noop
 www.cpubenchmark.net cdn.fuseplatform.net * noop
 www.cpubenchmark.net downloads.passmark.com * noop
 crypt.ee firebaseio.com * noop
 crypt.ee firebasestorage.googleapis.com * noop
 crypt.ee firestore.googleapis.com * noop
-crypt.ee www.google.com * noop
 crypt.ee securetoken.googleapis.com * noop
 crypt.ee www.googleapis.com * noop
 d.tube api.hive.blog * noop
 d.tube i.ytimg.com * noop
-www.deepl.com pacloudflare.com * noop
 www.deezer.com cdns-files.dzcdn.net * noop
-www.deezer.com www.google.com * noop
-www.deezer.com www.gstatic.com * noop
 detik.com detik.com * noop
 detik.com detik.net.id * noop
-www.deviantart.com www.deviantart.com * noop
 www.deviantart.com a.deviantart.net * noop
 www.deviantart.com st.deviantart.net * noop
-www.deviantart.com static.parastorage.com * noop
+www.deviantart.com wixmp.com * noop
+discord.com discord.gg * noop
 discord.com gateway.discord.gg * noop
 discord.com cdn.discordapp.com * noop
 discordapp.com discord.gg * noop
-dream.co.id dream.co.id * noop
 dream.co.id klimg.com * noop
-www.dropbox.com cfl.dropboxstatic.com.cdn.cloudflare.net * noop
 www.dropbox.com www.dropbox-dns.com * noop
 www.dropbox.com cfl.dropboxstatic.com * noop
 cart.payments.ebay.com ir.ebaystatic.com * noop
@@ -321,10 +410,6 @@ cart.payments.ebay.com p.ebaystatic.com * noop
 www.ebay.com ebayimg.com * noop
 www.ebay.com ebaystatic.com * noop
 www.ebay.com i.ebayimg.com.c.footprint.net * noop
-panopticlick.eff.org do-not-tracker.org * allow
-panopticlick.eff.org eff.org * allow
-panopticlick.eff.org eviltracker.net * allow
-panopticlick.eff.org trackersimulator.org * allow
 www.eff.org eff.map.fastly.net * noop
 m.facebook.com fbcdn.net * noop
 mbasic.facebook.com fbcdn.net * noop
@@ -336,9 +421,11 @@ fandom.com slot1-images.wikia.nocookie.net * noop
 fandom.com static.wikia.nocookie.net * noop
 fandom.com vignette.wikia.nocookie.net * noop
 touhou.fandom.com images.wikia.com * noop
+invidious.fdn.fr googlevideo.com * noop
 accounts.firefox.com accounts-static.cdn.mozilla.net * noop
-firstpartysimulator.net eff.org * allow
-firstpartysimulator.org eff.org * allow
+fosshost.org updown.io * noop
+fosshost.org stats.willit.fail * noop
+www.futureplc.com 4hibf8d9zsa9.wpeproxy.com * noop
 genflix.co.id genflix.co.id * noop
 www.gimp.org openshift.gnome.org * noop
 github.com githubassets.com * noop
@@ -351,73 +438,25 @@ gojek.com go-jek.com * noop
 gojek.com gojek.com * noop
 www.goodreads.com www.goodreads.com * noop
 www.goodreads.com gr-assets.com * noop
-google.co apis.google.com * noop
-google.co www.gstatic.com * noop
-accounts.google.com ssl.gstatic.com * noop
 docs.google.com googleusercontent.com * noop
-docs.google.com gstatic.com * noop
 drive.google.com content.googleapis.com * noop
 drive.google.com googleusercontent.com * noop
-drive.google.com ssl.gstatic.com * noop
-drive.google.com www.gstatic.com * noop
 mail.google.com lh3.googleusercontent.com * noop
-mail.google.com ssl.gstatic.com * noop
-mail.google.com www.gstatic.com * noop
-myaccount.google.com www.gstatic.com * noop
 play.google.com lh3.googleusercontent.com * noop
-play.google.com ssl.gstatic.com * noop
-play.google.com www.gstatic.com * noop
-plus.google.com www.gstatic.com * noop
 sites.google.com lh5.googleusercontent.com * noop
-sites.google.com ssl.gstatic.com * noop
-sites.google.com www.gstatic.com * noop
 translate.google.com translate.googleusercontent.com * noop
-translate.google.com ssl.gstatic.com * noop
-translate.google.com www.gstatic.com * noop
 translate.google.com translate.googleapis.com * noop
 www.google.com ggpht.com * noop
 www.google.com googleusercontent.com * noop
-www.google.com encrypted-tbn0.gstatic.com * noop
 www.google.com maps.gstatic.com * noop
-www.google.com ssl.gstatic.com * noop
-www.google.com www.gstatic.com * noop
 www.google.com i.ytimg.com * noop
 grab.com grab.com * noop
 help.gramedia.com gramedia.zendesk.com * noop
-www.gramedia.com cdnprodstd-gramedia-com.b-cdn.net * noop
 www.gramedia.com gramedia.com * noop
 www.gramedia.com apm.gramedia.info * noop
 www.gramedia.com nebby.gramedia.io * noop
-hatenablog.com media.amazon.map.fastly.net * noop
-hatenablog.com github.io * noop
-hatenablog.com github.map.fastly.net * noop
-hatenablog.com pf-api.hatena.com * noop
-hatenablog.com blog.hatena.ne.jp * noop
-hatenablog.com hatenablog-parts.com * noop
-hatenablog.com m.media-amazon.com * noop
-hatenablog.com raw.githubusercontent.com * noop
-hatenablog.com cdn.blog.st-hatena.com * noop
-hatenablog.com usercss.blog.st-hatena.com * noop
-hatenablog.com cdn-ak.f.st-hatena.com * noop
-hatenablog.com cdn-ak.favicon.st-hatena.com * noop
-hatenablog.com cdn-ak-scissors.favicon.st-hatena.com * noop
-hatenablog.com cdn.image.st-hatena.com * noop
-hatenablog.com cdn.pool.st-hatena.com * noop
-hatenablog.com cdn.profile-image.st-hatena.com * noop
-hatenablog.jp a1931.g1.akamai.net * noop
-hatenablog.jp e8863.f.akamaiedge.net * noop
-hatenablog.jp e8863.g.akamaiedge.net * noop
-hatenablog.jp github.io * noop
-hatenablog.jp pf-api.hatena.com * noop
-hatenablog.jp blog.hatena.ne.jp * noop
-hatenablog.jp hatenablog-parts.com * noop
-hatenablog.jp m.media-amazon.com * noop
-hatenablog.jp raw.githubusercontent.com * noop
-hatenablog.jp cdn.blog.st-hatena.com * noop
-hatenablog.jp usercss.blog.st-hatena.com * noop
-hatenablog.jp cdn-ak.f.st-hatena.com * noop
-hatenablog.jp cdn.image.st-hatena.com * noop
-hatenablog.jp cdn.profile-image.st-hatena.com * noop
+community.humanetech.com discourse-cdn.com * noop
+community.humanetech.com kxcdn.com * noop
 www.icloud.com idmsa.apple.com.akadns.net * noop
 www.icloud.com cdn.apple-cloudkit.com * noop
 www.icloud.com setup.fe.apple-dns.net * noop
@@ -433,9 +472,15 @@ jd.id 3.cn * noop
 jd.id jd-abroad.cdn20.com * noop
 jd.id jd.id * noop
 jd.id qianxun.com * noop
-jobstreet.co.id s3.amazonaws.com * noop
+www.jd.id id.360buyimg.com * noop
+www.jd.id misc.360buyimg.com * noop
+www.jobstreet.co.id image-service-cdn.seek.com.au * noop
+www.jobstreet.co.id candidate-graphql.sg.seek.com * noop
+www.jobstreet.co.id srp-jobstreet-id-en-prod.ap-southeast-1.elasticbeanstalk.com * noop
+www.jobstreet.co.id stats-jobstreet-id-en-prod.supercharge-srp.co * noop
+www.jobstreet.co.id xapi.supercharge-srp.co * noop
+www.jobstreet.co.id xapi-homepage-prod.supercharge-srp.co * noop
 jpnn.com jpnn.com * noop
-karyakarsa.com karyakarsa.s3.ap-southeast-1.amazonaws.com * noop
 karyakarsa.com karyakarsa.com * noop
 www.kaskus.co.id www.kaskus.co.id * noop
 www.kaskus.co.id c.kaskus.id * noop
@@ -443,7 +488,6 @@ www.kaskus.co.id s.kaskus.id * noop
 www.klikindomaret.com www.klikindomaret.com * noop
 knowyourmeme.com sni.star.kym-cdn.com.c.footprint.net * noop
 knowyourmeme.com s.kym-cdn.com * noop
-komikmama.net netdna.bootstrapcdn.com * noop
 komikmama.net komikcdn.com * noop
 komikmama.net komikmama.net * noop
 adm.komikmanga.com adm.komikmanga.com * noop
@@ -451,11 +495,6 @@ kompas.com kompas.com * noop
 kompasiana.com apis.kompas.com * noop
 kompasiana.com kompasiana.com * noop
 krita.org krita.org * noop
-kumparan.com amazonaws.com * noop
-kumparan.com ap-southeast-1.elb.amazonaws.com * noop
-kumparan.com blue.kumparan.com.cdn.cloudflare.net * noop
-kumparan.com cdn-graphql-v4.kumparan.com.cdn.cloudflare.net * noop
-kumparan.com widget.kumparan.com.cdn.cloudflare.net * noop
 kumparan.com kumparan.com * noop
 blog.landr.com landrblog.wpengine.com * noop
 lazada.co.id umlazada.alibaba.com * noop
@@ -465,7 +504,7 @@ lazada.co.id cdngslb.com * noop
 lazada.co.id ialicdn.com * noop
 lazada.co.id lazada.co.id * noop
 lazada.co.id slatic.net * noop
-lbry.tv amazonaws.com * noop
+www.lazada.co.id arms-retcode-sg.aliyuncs.com * noop
 lbry.tv lbry-boost.org * noop
 lbry.tv api.lbry.com * noop
 lbry.tv thumbnails.lbry.com * noop
@@ -475,20 +514,43 @@ lbry.tv cdn.lbryplayer.xyz * noop
 lbry.tv i.postimg.cc * noop
 lbry.tv spee.ch * noop
 lbry.tv thumbs.spee.ch * noop
+line6.com line6.net * noop
 liputan6.com liputan6.com * noop
+account.live.com 1drv.com * noop
+account.live.com spoprod-a.akamaihd.net * noop
+account.live.com epsiloncdn.net * noop
+account.live.com l-msedge.net * noop
+account.live.com www.microsoft.com * noop
+account.live.com acctcdn.msauth.net * noop
+account.live.com amcdn.msauth.net * noop
+account.live.com acctcdn.msftauth.net * noop
+account.live.com amcdn.msftauth.net * noop
+account.live.com webshell.suite.office.com * noop
+account.live.com shell.cdn.office.net * noop
+account.live.com t-msedge.net * noop
 login.live.com www.tm.lg.prod.aadmsa.akadns.net * noop
-login.live.com cs1227.wpc.alphacdn.net * noop
 login.live.com logincdn.msauth.net * noop
+login.live.com office.com * noop
 login.live.com outlook.office365.com * noop
+login.live.com r4.res.office365.com * noop
+login.live.com www.tm.a.prd.aadg.trafficmanager.net * noop
+outlook.live.com 1drv.com * noop
+outlook.live.com azure.com * noop
 outlook.live.com l-msedge.net * noop
+outlook.live.com amcdn.msftauth.net * noop
+outlook.live.com loki.delve.office.com * noop
+outlook.live.com lpcres.delve.office.com * noop
 outlook.live.com outlook-1.cdn.office.net * noop
+outlook.live.com res-1.cdn.office.net * noop
+outlook.live.com outlook.office365.com * noop
+outlook.live.com t-msedge.net * noop
+outlook.live.com www.tm.a.prd.aadg.trafficmanager.net * noop
 localhost dzcdn.net * noop
 mangadex.org mangadex.network * noop
 www.mangahere.cc mangahere.cc * noop
 www.mangahere.cc fmcdn.mangahere.com * noop
 www.mangahere.cc zjcdn.mangahere.org * noop
 mangaid.click mangaid.click * noop
-mangakid.club netdna.bootstrapcdn.com * noop
 mangakid.club images2.imgbox.com * noop
 mangareceh.co yt3.ggpht.com * noop
 mangareceh.co photos-ugc.l.googleusercontent.com * noop
@@ -498,16 +560,13 @@ mangaxin.com use.fontawesome.com * noop
 mangaxin.com ggpht.com * noop
 mangaxin.com googleusercontent.com * noop
 mangaxin.com mangaxin.com * noop
-mangaxin.com fontawesome-cdn.fonticons.netdna-cdn.com * noop
 maps.googleapis.com chart.apis.google.com * noop
 maps.googleapis.com maps.gstatic.com * noop
-mastodon.social msassets.b-cdn.net * noop
-matahari.com s3-ap-southeast-1-w.amazonaws.com * noop
 matahari.com mataharimall.com * noop
-matahari.com mm-image-marketing.s3.amazonaws.com * noop
-matahari.com mm-imgs.s3.amazonaws.com * noop
 medcom.id api.dailymotion.com * noop
 medcom.id medcom.id * noop
+mega.io g.api.mega.co.nz * noop
+mega.io sg.static.mega.co.nz * noop
 mega.nz mega.co.nz * noop
 merdeka.com klimg.com * noop
 merdeka.com merdeka.com * noop
@@ -516,15 +575,24 @@ www.messenger.com fbcdn.net * noop
 metrotvnews.com cdn.medcom.id * noop
 metrotvnews.com disk.mediaindonesia.com * noop
 metrotvnews.com metrotvnews.com * noop
-answers.microsoft.com answersstaticfilecdnv2.azureedge.net * noop
-answers.microsoft.com v0cdn.net * noop
+account.microsoft.com 1drv.com * noop
+account.microsoft.com mem.gfx.ms * noop
+account.microsoft.com login.live.com * noop
+account.microsoft.com storage.live.com * noop
+account.microsoft.com logincdn.msauth.net * noop
+account.microsoft.com webshell.suite.office.com * noop
+account.microsoft.com shell.cdn.office.net * noop
+account.microsoft.com t-msedge.net * noop
+account.microsoft.com www.tm.a.prd.aadg.trafficmanager.net * noop
+account.microsoft.com compass-ssl.xboxlive.com * noop
+support.microsoft.com office.net * noop
 misskey.de * 3p noop
 misskey.de use.fontawesome.com * noop
-misskey.de twemoji.maxcdn.com * noop
-misskey.de fontawesome-cdn.fonticons.netdna-cdn.com * noop
 misskey.io * 3p noop
+live.misskey.io live-api.arkjp.net * noop
 moeclip.com www.googleapis.com * noop
 mojok.co mojok.co * noop
+misskeyiddevenv.mooo.com * 3p noop
 addons.mozilla.org addons-amo.cdn.mozilla.net * noop
 blog.mozilla.org netdna-ssl.com * noop
 developer.mozilla.org interactive-examples.mdn.mozilla.net * noop
@@ -537,10 +605,13 @@ video.mstddntfdn.online cloud01.taruki.com * noop
 www.musicradar.com footprint.net * noop
 www.musicradar.com futurecdn.net * noop
 myanimelist.net myanimelist.net * noop
+www.name.com name.tools * noop
 natsushyo.me i.snap.as * noop
 natsushyo.me files.writeas.org * noop
 netflix.com nflxext.com * noop
 netflix.com codex.nflxext.com * noop
+neuraldsp.com ctfassets.net * noop
+neuraldsp.com shops.myshopify.com * noop
 nicovideo.jp d2uiklq0mlafei.cloudfront.net * noop
 nicovideo.jp dmc.nico * noop
 nicovideo.jp nimg.jp * noop
@@ -551,13 +622,14 @@ forms.office.com cdn.forms.office.net * noop
 okezone.com okezone.com * noop
 olx.co.id olx.co.id * noop
 olx.co.id api.olx.in * noop
+www.omgubuntu.co.uk omgubuntu.disqus.com * noop
 www.oracle.com www.oracleimg.com * noop
 signup.oraclecloud.com apac-tokyo.inregion.waas.oci.oraclecloud.net * noop
 signup.oraclecloud.com www.oracleimg.com * noop
-orami.co.id ap-southeast-1.elb.amazonaws.com * noop
 orami.co.id cloudimg.io * noop
 orami.co.id orami.co.id * noop
 orami.co.id whecloud.com * noop
+www.orami.co.id juragancdn.com * noop
 otakudesu.tv desustream.me * noop
 otakudesu.tv googlevideo.com * noop
 www.oyorooms.com www.oyorooms.com * noop
@@ -570,29 +642,20 @@ www.pcgamer.com c.disquscdn.com * noop
 www.pcgamer.com sslpxc.futurecdn.net.c.footprint.net * noop
 www.pcgamer.com futurecdn.net * noop
 www.pcgamer.com stackpathcdn.com * noop
-www.pegipegi.com s3-ap-southeast-1-w.amazonaws.com * noop
 www.pegipegi.com api.pegipegi.com * noop
 www.pegipegi.com apix.pegipegi.com * noop
 www.pegipegi.com origin.pegipegi.com * noop
 www.pegipegi.com www.pegipegi.com * noop
-www.pegipegi.com pegipegi.s3.amazonaws.com * noop
-pixiv.net www.pixiv.net.cdn.cloudflare.net * noop
-accounts.pixiv.net accounts.pixiv.net.cdn.cloudflare.net * noop
-accounts.pixiv.net www.google.com * noop
-accounts.pixiv.net www.gstatic.com * noop
 accounts.pixiv.net s.pximg.net * noop
-accounts.pixiv.net www.recaptcha.net * noop
 www.pixiv.net api.booth.pm * noop
 www.pixiv.net d.pixiv.org * noop
 www.pixiv.net booth.pximg.net * noop
 www.pixiv.net i.pximg.net * noop
 www.pixiv.net s.pximg.net * noop
 www.plugin-alliance.com elasticbeanstalk.com * noop
-pluginboutique.com www.google.com * noop
-pluginboutique.com www.gstatic.com * noop
-pluginboutique.com www.recaptcha.net * noop
-social.privacytools.io privacytoolsmastodon.b-cdn.net * noop
-producerhive.com producerhive.b-cdn.net * noop
+www.positivegrid.com bigcommerce.com * noop
+www.positivegrid.com herokudns.com * noop
+www.positivegrid.com mybigcommerce.com * noop
 www.quora.com qsbr.fs.quoracdn.net * noop
 www.quora.com qsf.fs.quoracdn.net * noop
 old.reddit.com preview.redd.it * noop
@@ -603,13 +666,12 @@ www.reddit.com redditmedia.com * noop
 www.reddit.com redditstatic.com * noop
 republika.co.id static.republika.co.id.kripix.com * noop
 republika.co.id republika.co.id * noop
-www.routenote.com www.google.com * noop
-www.routenote.com www.gstatic.com * noop
+www.roblox.com arkoselabs.com * noop
+www.roblox.com rbxcdn.com * noop
 www.routenote.com storage.googleapis.com * noop
 rutracker.org static.t-ru.org * noop
 ad.scorz.works scorz.works * noop
 serverfault.com sstatic.net * noop
-shopee.co.id c-api-bit.shopeemobile.com * noop
 shopee.co.id deo.shopeemobile.com * noop
 app.simplelogin.io simplelogin.co * noop
 sindonews.com cdn.okezone.com * noop
@@ -618,11 +680,9 @@ sindonews.com embed.rctiplus.com * noop
 sindonews.com sindo.media * noop
 sindonews.com sindonews.com * noop
 sindonews.com sindonews.net * noop
-sociolla.com cloudflare.net * noop
-sociolla.com s3-ap-southeast-1.amazonaws.com * noop
-sociolla.com sociolla.com * noop
 sociolla.com soco.id * noop
-soundcloud.com s3-1-w.amazonaws.com * noop
+sociolla.com analytics-api.soco.id * block
+soundcloud.com s.gihwyz.com * noop
 soundcloud.com a-v2.sndcdn.com * noop
 soundcloud.com cf-hls-media.sndcdn.com * noop
 soundcloud.com cf-hls-opus-media.sndcdn.com * noop
@@ -630,42 +690,33 @@ soundcloud.com i1.sndcdn.com * noop
 soundcloud.com secure.sndcdn.com * noop
 soundcloud.com style.sndcdn.com * noop
 soundcloud.com wave.sndcdn.com * noop
-soundcloud.com soundcloud-upload.s3.amazonaws.com * noop
+community.spiceworks.com spiceworksstatic.com * noop
 spotify.com www.scdn.co * noop
 spotify.com accounts.spotify.com * noop
 accounts.spotify.com accounts.scdn.co * noop
-developer.spotify.com netdna.bootstrapcdn.com * noop
-developer.spotify.com www.google.com * noop
-developer.spotify.com www.gstatic.com * noop
 stackexchange.com cdn.sstatic.net * noop
 stackexchange.com stackexchange.com * noop
 stackoverflow.com cdn.sstatic.net * noop
+www.statista.com cdn.statcdn.com * noop
 steamcommunity.com enhancedsteam.com * noop
 steamcommunity.com steamstatic.com * noop
 steampowered.com enhancedsteam.com * noop
 steampowered.com steamstatic.com * noop
 store.steampowered.com steamcommunity.com * noop
-streamable.com s3-1-w.amazonaws.com * noop
-streamable.com statics.b-cdn.net * noop
 streamable.com apis.google.com * noop
-streamable.com www.google.com * noop
 streamable.com socket.streamable.com * noop
-streamable.com streamables-upload.s3.amazonaws.com * noop
 suara.com media.suara.com.w.kunlunsl.com * noop
 suara.com suara.com * noop
 superuser.com sstatic.net * noop
-sushiroll.co.id sushiroll.akamaized.net * noop
 sushiroll.co.id prxy.genflix.co.id * noop
 sushiroll.co.id license.pallycon.com * noop
-syncthing.net stackpath.bootstrapcdn.com * noop
 tab.digital office01.tabdigital.eu * noop
 tempo.co tempo.co * noop
 video.tempo.co player.ivideosmart.com * noop
 video.tempo.co ivideosmrt.s.llnwi.net * noop
+www.theverge.com cdn.vox-cdn.com * noop
+www.theverge.com auth.voxmedia.com * noop
 www.tiket.com appleid.cdn-apple.com * noop
-www.tiket.com www.tiket.com.cdn.cloudflare.net * noop
-www.tiket.com www.google.com * noop
-www.tiket.com www.gstatic.com * noop
 www.tiket.com gql.tiket.com * noop
 www.tiket.com www.tiket.com * noop
 www.tiket.com s-light.tiket.photos * noop
@@ -675,33 +726,19 @@ tokopedia.com assets.tokopedia.net * noop
 tokopedia.com cdn.tokopedia.net * noop
 tokopedia.com ecs7.tokopedia.net * noop
 tokopedia.com ecs7-p.tokopedia.net * noop
+www.tokopedia.com o6tatrt8nyesjocbtvq0uyua9z7v2oxx.aliyunwaf5.com * noop
+www.tokopedia.com assets.tokopedia.net * noop
+www.tokopedia.com ecs7.tokopedia.net * noop
 www.tokopedia.com images.tokopedia.net * noop
-trakteer.id www.google.com * noop
-trakteer.id www.gstatic.com * noop
+www.tomshardware.com futurecdn.net * noop
 trakteer.id trakteer.id * noop
 www.traveloka.com ik.imagekit.io * noop
-www.traveloka.com s3-ap-southeast-1.amazonaws.com * noop
 www.traveloka.com holiday.loc.traveloka.com * noop
 www.traveloka.com www.traveloka.com * noop
 www.traveloka.com api.travelokapay.com * noop
-trello.com amazonaws.com * noop
-trello.com trello-attachments.s3.amazonaws.com * noop
-trello.com trello-backgrounds.s3.amazonaws.com * noop
-trello.com trello-logos.s3.amazonaws.com * noop
-trello.com trello-members.s3.amazonaws.com * noop
 trello.com trellocdn.com * noop
 trello.com unsplash.com * noop
-tresorit.com apimgmthsttmyl7xwn0xacd1phjowumknvse66qa9gaawpvhhp.cloudapp.net * noop
-tresorit.com msecnd.net * noop
-tresorit.com userlike-cdn-widgets.s3-eu-west-1.amazonaws.com * noop
-tresorit.com v0cdn.net * noop
-send.tresorit.com akamai.net * noop
-send.tresorit.com webclient-cdn.azureedge.net * noop
-send.tresorit.com cloudapp.net * noop
-send.tresorit.com prodsendapi.cloudapp.net * noop
 send.tresorit.com tresorit.com * noop
-send.tresorit.com azurewebsites.windows.net * noop
-send.tresorit.com waws-prod-db3-005.sip.azurewebsites.windows.net * noop
 send.tresorit.com prodanonymlinks.blob.core.windows.net * noop
 tribunnews.com kompas.com * noop
 tribunnews.com tribunnews.com * noop
@@ -711,10 +748,8 @@ www.tumblr.com assets.tumblr.com * noop
 twitch.tv ttvnw.net * noop
 twitch.tv sjc01.hls.ttvnw.net * noop
 twitch.tv usher.ttvnw.net * noop
-twitch.tv web-cdn.ttvnw.net * noop
 twitch.tv twitchcdn.net * noop
 twitch.tv twitchsvc.net * noop
-www.twitch.tv gstatic.com * noop
 www.twitch.tv jtvnw.net * noop
 twitter.com akahost.net * noop
 twitter.com www.pscp.tv * noop
@@ -723,12 +758,11 @@ twitter.com video.twimg.com * noop
 mobile.twitter.com akahost.net * noop
 ubuntu.com res.cloudinary.com * noop
 ubuntu.com ubuntu.com * noop
-vibetronic.id www.google.com * noop
-vibetronic.id fonts.gstatic.com * noop
-vibetronic.id www.gstatic.com * noop
+www.upwork.com assets.static-upwork.com * noop
 vibetronic.id vibetronic.id * noop
-vocalodon.net amazonaws.com * noop
+vibetronic.id static.vibetronic.id * allow
 vocalodon.net vocalodon.net * noop
+www.waves.com wavescdn.com * noop
 www.webtoons.com webtoon-phinf.pstatic.net * noop
 www.webtoons.com webtoons-static.pstatic.net * noop
 www.webtoons.com www.webtoons.com * noop
@@ -749,20 +783,36 @@ writeas.com cdn.writeas.net * noop
 writefreely.org buttons.github.io * noop
 writefreely.org writeas.scdn4.secure.raxcdn.com * noop
 writefreely.org analytics.write.as * noop
+account.xbox.com mem.gfx.ms * noop
+account.xbox.com l-msedge.net * noop
+account.xbox.com login.live.com * noop
+account.xbox.com storage.live.com * noop
+account.xbox.com query.prod.cms.rt.microsoft.com * noop
+account.xbox.com www.microsoft.com * noop
+account.xbox.com login.microsoftonline.com * noop
+account.xbox.com logincdn.msauth.net * noop
+account.xbox.com store-images.s-microsoft.com * noop
+account.xbox.com t-msedge.net * noop
+account.xbox.com trafficmanager.net * noop
+account.xbox.com images-eds-ssl.xboxlive.com * noop
+social.xbox.com www.microsoft.com * noop
 www.xp-pen.com allinone.xppen.net * noop
+music.youtube.com googleusercontent.com * noop
+music.youtube.com googlevideo.com * noop
+music.youtube.com i.ytimg.com * noop
 studio.youtube.com ggpht.com * noop
 studio.youtube.com google.com * noop
 studio.youtube.com googleusercontent.com * noop
-studio.youtube.com gstatic.com * noop
 studio.youtube.com i.ytimg.com * noop
 studio.youtube.com i9.ytimg.com * noop
 studio.youtube.com s.ytimg.com * noop
 www.youtube.com ggpht.com * noop
-www.youtube.com google.com * noop
+www.youtube.com accounts.google.com * noop
+www.youtube.com youtube-ui.l.google.com * noop
 www.youtube.com googleusercontent.com * noop
 www.youtube.com googlevideo.com * noop
-www.youtube.com gstatic.com * noop
 www.youtube.com i.ytimg.com * noop
 www.youtube.com s.ytimg.com * noop
 zalora.co.id zacdn.com * noop
 zalora.co.id zalora.com * noop
+zamplersounds.sellfy.store sellfy.com * noop
